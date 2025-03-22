@@ -29,5 +29,5 @@ jobs:
           ls
           go test
           ./upper foo the bar
-        # working-directory: upper
-        # name: build and test
+        working-directory: upper
+        name: build and test
